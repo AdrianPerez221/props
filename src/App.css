@@ -1,0 +1,31 @@
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.app {
+  display: grid;
+  gap: 1rem;
+}
+
+.alumnos {
+  display: grid;
+  gap: 1rem;
+}
+
+.alumno-item {
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.alumno-card h2 {
+  margin: 0 0 0.5rem;
+}
+
+.alumno-card p,
+.estado-alumno {
+  margin: 0.25rem 0;
+}
